@@ -1,0 +1,36 @@
+.control-container {
+  background-color: rgba(239, 239, 240, 1);
+  display: inline-flex;
+  padding: 4px;
+  column-gap: 4px;
+  justify-content: space-between;
+  border-radius: 4px;
+  margin: 16px 0;
+  box-shadow: inset 0 0px 8px 0 rgba(0, 0, 0, 0.12),
+    0 0 1px 0 rgba(0, 0, 0, 0.04);
+}
+
+.control-item {
+  min-width: 44px;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 4px 8px;
+  position: relative;
+}
+
+.control-item-bg {
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.12), 0 0px 1px 0 rgba(0, 0, 0, 0.04);
+}
+
+.control-item-text {
+  position: relative;
+  z-index: 1;
+  text-transform: capitalize;
+}
